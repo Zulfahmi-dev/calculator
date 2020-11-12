@@ -21,7 +21,9 @@ const index = () => {
             alignItems:'center',
           }
         }}>
-        <Stack.Screen key="home" name="Home" component={Home} />
+        <Stack.Screen key="home" name="Home" component={Home} options={{
+          title:'Kalkulator'
+        }} />
       </Stack.Navigator>
     </NavigationContainer>
   );
